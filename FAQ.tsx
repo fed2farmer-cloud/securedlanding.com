@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Reveal from "./Reveal";
-import { cn } from "../utils/cn";
+import { cn } from "./cn";
 
 const faqs = [
   [
