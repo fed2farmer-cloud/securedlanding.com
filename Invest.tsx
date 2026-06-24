@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Reveal from "./Reveal";
-import { useCountUp } from "../hooks/useCountUp";
+import { useCountUp } from "./useCountUp";
 
 const audiences = [
   {
