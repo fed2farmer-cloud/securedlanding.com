@@ -1,4 +1,4 @@
-import Nav from "./components/Nav";
+import Nav from "./Nav";
 import Hero from "./components/Hero";
 import Marquee from "./components/Marquee";
 import ProblemSolution from "./components/ProblemSolution";
