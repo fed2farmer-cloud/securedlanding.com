@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import { cn } from "../utils/cn";
-
+import { cn } from "./utils/cn";
 const links = [
   { label: "How It Works", href: "#how-it-works" },
   { label: "Borrow", href: "#borrow" },
