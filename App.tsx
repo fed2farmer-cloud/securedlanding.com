@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Nav from "./Nav";
 import Hero from "./Hero";
 import Marquee from "./Marquee";
@@ -11,9 +12,20 @@ import FAQ from "./FAQ";
 import Footer from "./Footer";
 
 export default function App() {
+  useEffect(() => {
+    document.title = "Secured Landing — Secure, Fast, Reliable";
+  }, []);
+
   return (
     <div className="grain min-h-screen bg-ink-950 text-paper-50">
       <Nav />
+
+      <div className="bg-indigo-700 text-white text-center py-3">
+        <p className="max-w-4xl mx-auto px-4">
+          Secured Landing — Secure, Fast, Reliable. Get started with a free trial — <a href="#contact" className="underline font-semibold">Contact us</a>.
+        </p>
+      </div>
+
       <main>
         <Hero />
         <Marquee />
