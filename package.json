@@ -11,7 +11,9 @@
     "tailwindcss": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "typescript": "latest"
+"typescript": "latest",
+"clsx": "latest",
+"tailwind-merge": "latest"
   },
   "devDependencies": {}
 }
