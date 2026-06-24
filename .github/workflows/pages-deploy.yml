@@ -28,7 +28,7 @@ jobs:
         run: npm run build
 
       - name: Add CNAME for custom domain
-        run: echo "securedlanding.com" > build/CNAME
+        run: echo "securedlanding.com" > dist/CNAME
 
       - name: Configure Pages
         uses: actions/configure-pages@v3
@@ -36,4 +36,4 @@ jobs:
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v1
         with:
-          path: build
+          path: dist
