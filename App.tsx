@@ -22,7 +22,7 @@ export default function App() {
 
       <div className="bg-gradient-to-r from-moss-600 to-ink-800 text-white text-center py-3">
         <p className="max-w-4xl mx-auto px-4">
-          Secured Landing — Secure, Fast, Reliable. Get started with a free trial — <a href="#contact" className="underline font-semibold">Contact us</a>.
+          Land-backed lending up to 50% LTV. Invest from $100 and earn 9% fixed interest.</a>.
         </p>
       </div>
 
