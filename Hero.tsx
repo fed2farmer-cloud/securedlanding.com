@@ -1,5 +1,5 @@
 import Reveal from "./Reveal";
-import { useCountUp } from "../hooks/useCountUp";
+import { useCountUp } from "../useCountUp";
 
 const HERO_IMG =
   "https://images.pexels.com/photos/33786793/pexels-photo-33786793.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1100&w=1920";
