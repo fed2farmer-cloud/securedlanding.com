@@ -20,7 +20,7 @@ export default function App() {
     <div className="grain min-h-screen bg-ink-950 text-paper-50">
       <Nav />
 
-      <div className="bg-indigo-700 text-white text-center py-3">
+      <div className="bg-gradient-to-r from-moss-600 to-ink-800 text-white text-center py-3">
         <p className="max-w-4xl mx-auto px-4">
           Secured Landing — Secure, Fast, Reliable. Get started with a free trial — <a href="#contact" className="underline font-semibold">Contact us</a>.
         </p>
