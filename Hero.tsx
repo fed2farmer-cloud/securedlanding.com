@@ -45,8 +45,7 @@ export default function Hero() {
 
             <Reveal delay={100}>
               <h1 className="font-display text-[44px] font-light leading-[1.04] tracking-tight text-paper-50 sm:text-6xl lg:text-[72px]">
-                Land-Backed Loans
-for Property Owners.</span>
+                Borrow up to 50% LTV. Invest from $100 and earn a fixed 9% return backed by real estate collateral.</span>
               </h1>
             </Reveal>
 
