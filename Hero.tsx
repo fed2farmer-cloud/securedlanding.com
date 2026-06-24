@@ -45,9 +45,8 @@ export default function Hero() {
 
             <Reveal delay={100}>
               <h1 className="font-display text-[44px] font-light leading-[1.04] tracking-tight text-paper-50 sm:text-6xl lg:text-[72px]">
-                Your land holds capital.
-                <br />
-                <span className="font-medium italic text-gold-300">We unlock it.</span>
+                Land-Backed Loans
+for Property Owners.</span>
               </h1>
             </Reveal>
 
@@ -65,7 +64,7 @@ export default function Hero() {
                   href="#borrow"
                   className="group inline-flex items-center gap-2.5 rounded-full bg-gold-400 px-7 py-3.5 text-sm font-semibold text-ink-950 shadow-[0_8px_30px_rgb(201_161_75/0.35)] transition hover:bg-gold-300"
                 >
-                  Unlock My Land Equity
+                  Apply for Land-Backed Loan
                   <svg viewBox="0 0 24 24" className="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
                     <path d="M5 12h14M13 6l6 6-6 6" />
                   </svg>
@@ -82,7 +81,7 @@ export default function Hero() {
             <Reveal delay={400}>
               <div className="mt-14 grid max-w-xl grid-cols-3 gap-6 border-t border-paper-50/10 pt-8">
                 <Stat value={50} suffix="%" label="Max Loan-to-Value" />
-                <Stat value={15} prefix="8–" suffix="%" label="Target Returns" />
+               <Stat value={9} suffix="%" label="Fixed Investor Return" />
                 <Stat value={72} prefix="48–" suffix="h" label="Approval Window" />
               </div>
             </Reveal>
