@@ -43,11 +43,11 @@ export default function Hero() {
               </div>
             </Reveal>
 
-            <Reveal delay={100}>
-              <h1 className="font-display text-[44px] font-light leading-[1.04] tracking-tight text-paper-50 sm:text-6xl lg:text-[72px]">
-                Borrow up to 50% LTV. Invest from $100 and earn a fixed 9% return backed by real estate collateral.</span>
-              </h1>
-            </Reveal>
+              <Reveal delay={100}>
+  <h1 className="font-display text-5xl font-medium tracking-tight text-paper-50 sm:text-7xl">
+    Borrow up to 50% of your land value.
+  </h1>
+</Reveal>
 
             <Reveal delay={200}>
               <p className="mt-7 max-w-xl text-base leading-relaxed text-paper-50/65 sm:text-lg">
