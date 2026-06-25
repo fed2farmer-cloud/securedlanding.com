@@ -55,10 +55,26 @@ function CTA() {
               </div>
             ) : (
               <form
-                onSubmit={(e) => {
-                  e.preventDefault();
-                  if (email.includes("@")) setSent(true);
-                }}
+  onSubmit={async (e) => {
+    e.preventDefault();
+
+    if (!email.includes("@")) return;
+
+    const supabase = createClient();
+
+    const { error } = await supabase
+      .from("contact_leads")
+      .insert({
+        email,
+        source: role,
+      });
+
+    if (!error) {
+      setSent(true);
+    } else {
+      alert("Something went wrong.");
+    }
+  }}
                 className="flex gap-2 rounded-full bg-ink-950/80 p-1.5 ring-1 ring-paper-50/15 backdrop-blur-sm"
               >
                 <input
