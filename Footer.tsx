@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Reveal from "./Reveal";
 import { Logo } from "./Nav";
-import { createClient } from "@/utils/supabase/client";
+import { createClient } from "./utils/supabase/client";
 const CTA_IMG =
   "https://images.pexels.com/photos/33786604/pexels-photo-33786604.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=800&w=1920";
 
