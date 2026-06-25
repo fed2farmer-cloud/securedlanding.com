@@ -75,7 +75,7 @@ function CTA() {
       alert("Something went wrong.");
     }
   }}
-                className="flex gap-2 rounded-full bg-ink-950/80 p-1.5 ring-1 ring-paper-50/15 backdrop-blur-sm"
+  >             className="flex gap-2 rounded-full bg-ink-950/80 p-1.5 ring-1 ring-paper-50/15 backdrop-blur-sm"
               >
                 <input
                   type="email"
