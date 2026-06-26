@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/react";
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
 import { cn } from "./cn";
 const links = [
   { label: "How It Works", href: "#how-it-works" },
