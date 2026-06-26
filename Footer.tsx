@@ -62,18 +62,8 @@ function CTA() {
 
     
 
-    const { error } = await supabase
-      .from("contact_leads")
-      .insert({
-        email,
-        source: role,
-      });
-
-    if (!error) {
-      setSent(true);
-    } else {
-      alert("Something went wrong.");
-    }
+    setSent(true);
+alert("Thanks! We'll contact you soon.");
    }}
   className="flex gap-2 rounded-full bg-ink-950/80 p-1.5 ring-1 ring-paper-50/15 backdrop-blur-sm"
 >
