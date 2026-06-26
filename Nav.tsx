@@ -69,16 +69,6 @@ export default function Nav() {
           >
             Start Investing
           </a>
-
-<SignedIn>
-  <UserButton />
-</SignedIn>
-          <a
-            href="#borrow"
-            className="rounded-full bg-gold-400 px-4 py-2 text-[13px] font-semibold text-ink-950 transition hover:bg-gold-300"
-          >
-            Get a Loan
-          </a>
 <SignedOut>
   <SignInButton mode="modal">
     <button className="rounded-full px-4 py-2 text-[13px] font-semibold ring-1 ring-paper-50/20">
