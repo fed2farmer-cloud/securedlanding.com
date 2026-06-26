@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/react";
 import { cn } from "./cn";
 const links = [
   { label: "How It Works", href: "#how-it-works" },
@@ -68,12 +69,27 @@ export default function Nav() {
           >
             Start Investing
           </a>
+
+<SignedIn>
+  <UserButton />
+</SignedIn>
           <a
             href="#borrow"
             className="rounded-full bg-gold-400 px-4 py-2 text-[13px] font-semibold text-ink-950 transition hover:bg-gold-300"
           >
             Get a Loan
           </a>
+<SignedOut>
+  <SignInButton mode="modal">
+    <button className="rounded-full px-4 py-2 text-[13px] font-semibold ring-1 ring-paper-50/20">
+      Sign In
+    </button>
+  </SignInButton>
+</SignedOut>
+
+<SignedIn>
+  <UserButton />
+</SignedIn>
         </div>
 
         <button
