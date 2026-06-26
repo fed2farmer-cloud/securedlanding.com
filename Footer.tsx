@@ -60,7 +60,7 @@ function CTA() {
 
     if (!email.includes("@")) return;
 
-    const supabase = createClient();
+    
 
     const { error } = await supabase
       .from("contact_leads")
