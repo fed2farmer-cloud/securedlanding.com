@@ -5,8 +5,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-"@clerk/clerk-react": "latest",
- "@vitejs/plugin-react": "4.3.4",
+"@clerk/react": "latest",
+"@vitejs/plugin-react": "4.3.4",
     "@tailwindcss/vite": "latest",
    "vite": "5.4.11",
     "tailwindcss": "latest",
